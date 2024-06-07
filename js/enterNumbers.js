@@ -1,6 +1,6 @@
 import PromptSync from "prompt-sync";
 
-export function ingresarNumeros (){
+export function enterNumbers (){
     let anadir_numero = "";
     let pri_NumbOK=0;
     let seg_NumbOK=0;
@@ -42,7 +42,7 @@ export function ingresarNumeros (){
                      }
           }while(salir_validacion != "OK") 
     }
-    console.info("Los dos valores Ingresados son :" + pri_NumbOK + " y " + seg_NumbOK);
+    console.info("Los dos valores Ingresados son: " + pri_NumbOK + " y " + seg_NumbOK);
     // arrayAngle.push(pri_NumbOK);
     return [pri_NumbOK, seg_NumbOK];
     }

@@ -3,7 +3,7 @@ export function calculateAngle(angleOne, angleTwo) {
     let angleThree = 0;
     let mensaje = "";
 
-    angleThree = 180 - (angleOne - angleTwo);
+    angleThree = 180 - (angleOne + angleTwo);
     if (angleThree > 0) {
         mensaje = "El Valor del Tercer Angulo es = " + angleThree;         
     } else {
